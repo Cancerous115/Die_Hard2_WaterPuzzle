@@ -27,7 +27,6 @@ public class Assignment4C {
                     break;
                 case 3:
                     //Looked ahead a few chapters to learn/incorporate Math.min/max.
-
                     int transfer= Math.min(g5,3-g3);
                     g5 = g5-transfer;
                     g3=g3+transfer;
@@ -46,7 +45,7 @@ public class Assignment4C {
             }}
         while(g5 != 4);{
             System.out.println("The 3 gallon has " + g3 + "gallons of water and the 5 gallon has " + g5 + "gallons of water");
-            System.out.println("You saved Bruce Willis and Samuel L. jackson! You Win!");
+            System.out.println("You saved Bruce Willis and Samuel L. Jackson! You Win!");
         }
         }
     }
